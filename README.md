@@ -81,6 +81,18 @@
 	32. import os
 	33. import numpy as np
 
+## VI.	Outputs and Results ##
+![image](https://user-images.githubusercontent.com/81507533/114670005-2e864d80-9d20-11eb-95c0-961685af5a23.png)
 
-## VI.	Conclusion ##
+![image](https://user-images.githubusercontent.com/81507533/114669959-20d0c800-9d20-11eb-8dd0-8d6511cb52e4.png)
+
+![image](https://user-images.githubusercontent.com/81507533/114669937-1a425080-9d20-11eb-8010-60ff95f63b56.png)
+
+![image](https://user-images.githubusercontent.com/81507533/114669624-ba4baa00-9d1f-11eb-9400-9b31c4deb994.png)
+
+![image](https://user-images.githubusercontent.com/81507533/114669653-c0418b00-9d1f-11eb-99b7-9b719b79aa20.png)
+
+![image](https://user-images.githubusercontent.com/81507533/114669683-c7689900-9d1f-11eb-9549-bac189787e92.png)
+
+## VII.	Conclusion ##
 - Successfully implemented and completed this project/case study. As required in the problem statement got the same output. The model which I built by combining the 2 different models i.e., model 01 – Facial key points detection model and model 02 – Facial expression classification model, just performed as required in order to get the required output for the problem statement given to me.
