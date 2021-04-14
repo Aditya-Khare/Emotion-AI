@@ -45,9 +45,41 @@
     19.	Save the trained model for deployment.
     20.	Server the trained model using TensorFlow serving.
     21.	Make requests to model in TensorFlow serving.
- 
-## V.	Result ##
-- The model after combining the two smaller models gave the following result in the assessing step of the model.
+
+## V.   Packages / Modules used ##
+	1. import requests
+	2. import tensorflow.keras.backend as K
+	3. import json
+	4. from sklearn.metrics import classification_report
+	5. from sklearn.metrics import confusion_matrix
+	6. from keras.utils import to_categorical
+	7. import copy
+	8. import random
+	9. from google.colab.patches import cv2_imshow
+	10. from sklearn.model_selection import train_test_split
+	11. import matplotlib.pyplot as plt
+	12. from keras import optimizers
+	13. from tensorflow.keras import backend as K
+	14. from tensorflow.keras.layers import *
+	15. from tensorflow.keras.applications.resnet50 import ResNet50
+	16. from tensorflow.keras import layers, optimizers
+	17. from tensorflow.keras.preprocessing.image import ImageDataGenerator
+	18. from tensorflow.python.keras import *
+	19. from IPython.display import display
+	20. from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping, ModelCheckpoint, LearningRateScheduler
+	21. from tensorflow.keras.utils import plot_model
+	22. from tensorflow.keras.initializers import glorot_uniform
+	23. from tensorflow.keras.models import Model, load_model
+	24. from tensorflow.keras.applications import DenseNet121
+	25. from tensorflow import keras
+	26. import tensorflow as tf
+	27. import cv2
+	28. from PIL import *
+	29. import pickle
+	30. import seaborn as sns
+	31. import PIL
+	32. import os
+	33. import numpy as np
 
 
 ## VI.	Conclusion ##
